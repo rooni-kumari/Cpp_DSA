@@ -3,9 +3,9 @@ using namespace std;
 int main()
 {
     int arr[5]={1,2,3,4,5},sum=0;
-    for(int i=0;i<5;i++)
+    for(int num : arr)
     {
-        sum=sum+arr[i];
+        sum=sum+ num;
     }
     cout<<sum<<endl;
     return 0;
