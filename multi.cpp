@@ -2,11 +2,11 @@
 using namespace std;
 int main()
 {
-    int arr[5]={1,2,3,4,5},sum=1;
+    int arr[5]={1,2,3,4,5},multi=1;
     for(int num : arr)
     {
-        sum=sum * num;
+        multi*= num;
     }
-    cout<<sum<<endl;
+    cout<<multi<<endl;
     return 0;
 }
