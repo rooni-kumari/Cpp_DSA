@@ -1,3 +1,5 @@
+// WAP for search an element //
+
 #include <iostream>
 using namespace std;
 
@@ -22,3 +24,4 @@ int main() {
 
     return 0;
 }
+

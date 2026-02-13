@@ -1,3 +1,5 @@
+// WAP for maximum occurance element in an integer //
+
 #include <iostream>
 using namespace std;
 

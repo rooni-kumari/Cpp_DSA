@@ -1,3 +1,5 @@
+// WAP for addition of an integer array //
+
 #include<iostream>
 using namespace std;
 int main()

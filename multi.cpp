@@ -1,3 +1,5 @@
+// WAP for multiplication of an integer array //
+
 #include<iostream>
 using namespace std;
 int main()
