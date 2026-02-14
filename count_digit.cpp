@@ -4,15 +4,15 @@
 using namespace std;
 int main()
 {
-    int a = 1234;
+    int a = 5432;
     int count=0;
-    cout<<"count before"<<endl;
+    
     while(a!=0)
     {
         a/=10;
         count++;        
     }
-    cout<<"count"<<endl;
-    cout<<count<<endl;
+    
+    cout<<"number of digit are "<<count<<endl;
     return 0;    
 }
