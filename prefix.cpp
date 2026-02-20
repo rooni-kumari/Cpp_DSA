@@ -5,7 +5,6 @@ using namespace std;
 string longestCommonPrefix(vector<string>& strs) {
     if (strs.size() == 0)
         return "";
-
     string prefix = "";
 
     for (int i = 0; i < strs[0].length(); i++) {
@@ -26,8 +25,7 @@ string longestCommonPrefix(vector<string>& strs) {
 int main() {
     vector<string> strs = {"flower", "flow", "flight"};
 
-    cout << "Longest Common Prefix: "
-         << longestCommonPrefix(strs);
+    cout << "Longest Common Prefix: " << longestCommonPrefix(strs);
 
     return 0;
 }
